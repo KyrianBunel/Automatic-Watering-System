@@ -34,3 +34,7 @@ esp32-based automatic irrigation system capable of controlling up to 6 different
 - select your wifi network and enter your password
 - Click on "Save"
 - And you're done, you can now access the following web pages: LOCAL_IP_ADDRESS/accueil & LOCAL_IP_ADDRESS/dashboard
+
+# Web pages :
+![IMG_3442](https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/78d3fa6a-2e36-4462-bc9b-9edaf7544a07)
+![IMG_3440](https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/23ac50d8-a991-4f8e-9b6d-126abe4a75db)
