@@ -17,7 +17,7 @@ esp32-based automatic irrigation system capable of controlling up to 6 different
 - Compatible with arduino OTA (update through the local network)
 - Transmits sensor data hourly to a Google sheet to create a database
 
-# future improvements :
+# Future improvements :
 - Web pages :
     - add a settings page
     - add the possibility of choosing the language (English/French)
