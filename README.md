@@ -24,6 +24,10 @@ esp32-based automatic irrigation system capable of controlling up to 6 different
     - add the ability to modify the Google Sheet page ID
 - PCB :
     - upgrade to an ESP32-WROOM-32UE to add an external antenna and increase the WiFi connection range
+    - move mounting holes & components away from board edge
+    - increase mounting hole size to M3
+    - move decoupling capacitors closer to power supply pins
+    - add a differential pair to the usb port
 
 # How to start up :
 - Download the code and upload it to the ESP
