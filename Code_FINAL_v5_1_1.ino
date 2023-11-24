@@ -337,34 +337,19 @@ void handleSubmit() {
 
   /* Formattage interval d'arrosage zone 1 */
   if (StrZone1 == "on")
-    sprintf(IntervalZone1, "%s"
-                           "%s"
-                           "%d"
-                           "%s"
-                           "%d",
-            StrDebut1, "-", EndHour1, ":", EndMin1);
+    sprintf(IntervalZone1, "%s""%s""%d""%s""%d",StrDebut1, "-", EndHour1, ":", EndMin1);
   else
     sprintf(IntervalZone1, "%s", " ");
 
   /* Formattage interval d'arrosage zone 2 */
   if (StrZone2 == "on")
-    sprintf(IntervalZone2, "%s"
-                           "%s"
-                           "%d"
-                           "%s"
-                           "%d",
-            StrDebut2, "-", EndHour2, ":", EndMin2);
+    sprintf(IntervalZone2, "%s""%s""%d""%s""%d",StrDebut2, "-", EndHour2, ":", EndMin2);
   else
     sprintf(IntervalZone2, "%s", " ");
 
   /* Formattage interval d'arrosage zone 3 */
   if (StrZone3 == "on")
-    sprintf(IntervalZone3, "%s"
-                           "%s"
-                           "%d"
-                           "%s"
-                           "%d",
-            StrDebut3, "-", EndHour3, ":", EndMin3);
+    sprintf(IntervalZone3, "%s""%s""%d""%s""%d",StrDebut3, "-", EndHour3, ":", EndMin3);
   else
     sprintf(IntervalZone3, "%s", " ");
 
