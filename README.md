@@ -15,6 +15,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
           - PROG -> allows the user to enter information such as watering start and end date, watering duration, recurrence and watering time for each valve via a form.
 - Ability to view the current program and sensors values via a dashboard page (LOCAL_IP_ADDRESS/dashboard ex : 192.168.1.10/dashboard)
 - Compatible with arduino OTA (update through the local network)
+- Automatic watering stop in case of rain (except in MANU mode)
 - Transmits sensor data hourly to a Google sheet to create a database
 
 # Future improvements :
@@ -40,6 +41,13 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 - select your wifi network and enter your password
 - Click on "Save"
 - And you're done, you can now access the following web pages: LOCAL_IP_ADDRESS/accueil & LOCAL_IP_ADDRESS/dashboard
+
+# Additional material required :
+- DHT22 temperature and humidity sensor
+- Capacitive moisture sensor (3 maximum)
+- 9V 24V tranformer (depending on your instlation)
+- Rain sensor
+- Wi-Fi network (a powerful network to allow pages to load faster)
 
 # Web pages :
 ### Home page & Dashboard
