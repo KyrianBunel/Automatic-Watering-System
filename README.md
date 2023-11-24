@@ -59,8 +59,8 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 (the data displayed is random, as no sensor was connected to the board)
 
 # PCB :
-<img width="578" alt="Capture d’écran 2023-11-24 à 10 49 10" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/afab87db-7703-45c7-baa2-5c612e775d75">![Image 26-10-2023 à 20 34](https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/afd4b693-eeea-44da-a24a-72f3b16e1f7f)
-
+<img width="578" alt="Capture d’écran 2023-11-24 à 10 49 10" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/afab87db-7703-45c7-baa2-5c612e775d75">
+![Image 26-10-2023 à 20 34](https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/dc617480-18ba-4045-ba6e-59b6361a84c2)
 
 
 # Weather station :
