@@ -42,3 +42,6 @@ esp32-based automatic irrigation system capable of controlling up to 6 different
 # Web pages :
 ### Home page & Dashboard
 <img width="482" alt="Capture d’écran 2023-11-24 à 09 25 02" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/00163eab-d90e-48f1-a0c9-2fe2f81a1990">
+
+### Extract from the database
+<img width="903" alt="Capture d’écran 2023-11-24 à 09 27 08" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/ae5eccb6-c697-4cf3-a932-965565101b48">
