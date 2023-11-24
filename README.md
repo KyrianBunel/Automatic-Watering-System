@@ -13,7 +13,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
           - MANU -> allows manual control of the 6 valves independently; once the selected valve is active, it can be deactivated only if the user does it manually.
           - AUTO -> uses weather station and soil moisture sensors to automatically trigger a 15-minute watering cycle.
           - PROG -> allows the user to enter information such as watering start and end date, watering duration, recurrence and watering time for each valve via a form.
-- Ability to view the current program via a dashboard page (LOCAL_IP_ADDRESS/dashboard ex : 192.168.1.10/dashboard)
+- Ability to view the current program and sensors values via a dashboard page (LOCAL_IP_ADDRESS/dashboard ex : 192.168.1.10/dashboard)
 - Compatible with arduino OTA (update through the local network)
 - Transmits sensor data hourly to a Google sheet to create a database
 
