@@ -1,5 +1,5 @@
 # Automatic-Watering-System
-esp32-based automatic irrigation system capable of controlling up to 6 different zones
+Esp32-based automatic irrigation system capable of controlling up to 6 different zones independently
 
 
 # Features :
@@ -19,15 +19,17 @@ esp32-based automatic irrigation system capable of controlling up to 6 different
 
 # Future improvements :
 - Web pages :
-    - add a settings page
-    - add the possibility of choosing the language (English/French)
-    - add the ability to modify the Google Sheet page ID
+    - Add a settings page
+    - Add the possibility of choosing the language (English/French)
+    - Add the ability to modify the Google Sheet page
+- Database :
+    - Improve the data sent as the total duration of watering during the last hour to be able to deduct the cost of watering per month and per year
 - PCB :
-    - upgrade to an ESP32-WROOM-32UE to add an external antenna and increase the WiFi connection range
-    - move mounting holes & components away from board edge
-    - increase mounting hole size to M3
-    - move decoupling capacitors closer to power supply pins
-    - add a differential pair to the usb port
+    - Upgrade to an ESP32-WROOM-32UE to add an external antenna and increase the WiFi connection range
+    - Move mounting holes & components away from board edge
+    - Increase mounting hole size to M3
+    - Move decoupling capacitors closer to power supply pins
+    - Add a differential pair to the usb port
 
 # How to start up :
 - Download the code and upload it to the ESP
