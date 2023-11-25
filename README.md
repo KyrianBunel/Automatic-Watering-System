@@ -31,6 +31,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
     - Increase mounting hole size to M3
     - Move decoupling capacitors closer to power supply pins
     - Add a differential pair to the usb port
+    - Improve the DC-DC Buck Converter design (produce heat + noise coming from the inductance during current peaks)
 
 # How to start up :
 - Download the code and upload it to the ESP
