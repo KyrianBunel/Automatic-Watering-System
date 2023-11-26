@@ -23,6 +23,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
     - Add a settings page
     - Add the possibility of choosing the language (French only for the moment)
     - Add the ability to modify the ID of Google Sheet page in the web interface
+    - Add the possibility to modify the number of valve used
 - Database :
     - Improve the data sent as the total duration of watering during the last hour to be able to deduct the cost of watering per month and per year
 - PCB :
