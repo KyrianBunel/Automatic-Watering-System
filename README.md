@@ -37,6 +37,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 # How to start up :
 ### Home page & Dashboard
 - Download the code and upload it to the ESP
+<img width="600" alt="Capture d’écran 2023-11-27 à 15 51 45" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/991c6000-c627-4a20-a1a6-e8713ec86041">
 - Press the reset button
 - Go to the phone settings and connect to the Wifi network: ArrosageAUTO_XXX
 - Wait for a web page to open. If the web page doesn't open automatically, go to your browser and type "192.168.4.1"
