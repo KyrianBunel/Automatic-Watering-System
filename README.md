@@ -48,8 +48,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 - Download the following file : [here](https://docs.google.com/spreadsheets/d/1MzfrYDloWlxmfWAgQVE4hzFRyIgfXsLG/edit?usp=sharing&ouid=109384094405642667494&rtpof=true&sd=true
 - Click on "file" -> "save in google sheet format"
 - Then click on "extensions" -> "apps script" and paste the following code :
-'''
-var sheet_id = "YOUR_GOOGLE_SHEET_ID";
+`var sheet_id = "YOUR_GOOGLE_SHEET_ID";
 var sheet_name = "ArrosageAUTO_data";
 function doGet(e){
 var ss = SpreadsheetApp.openById(sheet_id);
@@ -64,8 +63,7 @@ var moistureSensor2 = e.parameter.moistureSensor2;
 var moistureSensor3 = e.parameter.moistureSensor3;
 
 sheet.appendRow([date,temperature, humidite, luminosite, moistureSensor1, moistureSensor2, moistureSensor3]);
-}
-'''
+}`
 
 # Additional material required :
 - DHT22 temperature and humidity sensor
