@@ -47,6 +47,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 ### Dadabase
 - Download the following file : [here](https://docs.google.com/spreadsheets/d/1MzfrYDloWlxmfWAgQVE4hzFRyIgfXsLG/edit?usp=sharing&ouid=109384094405642667494&rtpof=true&sd=true
 - Click on "file" -> "save in google sheet format"
+<img width="600" alt="Capture d’écran 2023-11-27 à 15 38 50" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/9cbdee43-64f3-4153-be98-c1ff190f22a1">
 - Then click on "extensions" -> "apps script" and paste the following code :
 ```
 var sheet_id = "YOUR_GOOGLE_SHEET_ID";
