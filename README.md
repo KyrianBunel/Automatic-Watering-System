@@ -35,6 +35,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
     - Improve the DC-DC Buck Converter design (produce heat + noise coming from the inductance during current peaks)
 
 # How to start up :
+### Home page & Dashboard
 - Download the code and upload it to the ESP
 - Press the reset button
 - Go to the phone settings and connect to the Wifi network: ArrosageAUTO_XXX
@@ -43,6 +44,8 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 - select your wifi network and enter your password
 - Click on "Save"
 - And you're done, you can now access the following web pages: LOCAL_IP_ADDRESS/accueil & LOCAL_IP_ADDRESS/dashboard
+### Dadabase
+
 
 # Additional material required :
 - DHT22 temperature and humidity sensor
