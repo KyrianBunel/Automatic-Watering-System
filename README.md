@@ -87,7 +87,7 @@ sheet.appendRow([date,temperature, humidite, luminosite, moistureSensor1, moistu
 (the data displayed is random, as no sensor was connected to the board)
 
 # PCB :
-<img width="1091" alt="Capture d’écran 2023-11-24 à 10 55 46" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/d388fdc2-1045-42d5-a5e7-aa54745b1d12">
+<img width="800" alt="Capture d’écran 2023-11-24 à 10 55 46" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/d388fdc2-1045-42d5-a5e7-aa54745b1d12">
 
 You can directly order the PCB via this link: https://www.pcbway.com/project/shareproject/Automatic_Watering_System_7e1279b2.html
 
