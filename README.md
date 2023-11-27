@@ -66,6 +66,8 @@ var moistureSensor3 = e.parameter.moistureSensor3;
 sheet.appendRow([date,temperature, humidite, luminosite, moistureSensor1, moistureSensor2, moistureSensor3]);
 }
 ```
+- Click on "deploy" -> "New deployment" add a description and click "OK"
+
 
 # Additional material required :
 - DHT22 temperature and humidity sensor
