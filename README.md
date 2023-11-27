@@ -45,7 +45,27 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 - Click on "Save"
 - And you're done, you can now access the following web pages: LOCAL_IP_ADDRESS/accueil & LOCAL_IP_ADDRESS/dashboard
 ### Dadabase
-- Download the following file : [here](https://docs.google.com/spreadsheets/d/1MzfrYDloWlxmfWAgQVE4hzFRyIgfXsLG/edit?usp=sharing&ouid=109384094405642667494&rtpof=true&sd=true)
+- Download the following file : [here](https://docs.google.com/spreadsheets/d/1MzfrYDloWlxmfWAgQVE4hzFRyIgfXsLG/edit?usp=sharing&ouid=109384094405642667494&rtpof=true&sd=true
+- Click on "file" -> "save in google sheet format"
+- Then click on "extensions" -> "apps script" and paste the following code :
+'''
+var sheet_id = "YOUR_GOOGLE_SHEET_ID";
+var sheet_name = "ArrosageAUTO_data";
+function doGet(e){
+var ss = SpreadsheetApp.openById(sheet_id);
+var sheet = ss.getSheetByName(sheet_name);
+
+var date = e.parameter.date;
+var temperature = e.parameter.temperature;
+var humidite = e.parameter.humidite;
+var luminosite = e.parameter.luminosite;
+var moistureSensor1 = e.parameter.moistureSensor1;
+var moistureSensor2 = e.parameter.moistureSensor2;
+var moistureSensor3 = e.parameter.moistureSensor3;
+
+sheet.appendRow([date,temperature, humidite, luminosite, moistureSensor1, moistureSensor2, moistureSensor3]);
+}
+'''
 
 # Additional material required :
 - DHT22 temperature and humidity sensor
