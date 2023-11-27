@@ -36,7 +36,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 
 # How to start up :
 ### Home page & Dashboard
-- Download the code and upload it to the ESP
+- Download the code and upload it to the ESP 32
 <img width="600" alt="Capture d’écran 2023-11-27 à 16 22 07" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/e8784148-48f8-4efe-bbc4-4011d077c6dc">
 
 - Press the reset button
