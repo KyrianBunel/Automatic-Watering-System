@@ -51,8 +51,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 <img width="600" alt="Capture d’écran 2023-11-27 à 15 38 50" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/9cbdee43-64f3-4153-be98-c1ff190f22a1">
 
 - Then click on "extensions" -> "apps script" and paste the following code :
-
-<img width="600" alt="Capture d’écran 2023-11-27 à 15 45 44" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/5e5c71c5-86b0-457e-9580-7283d34164d1">
+<img width="600" alt="Capture d’écran 2023-11-27 à 15 45 44" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/28d39bbd-85c1-45b2-b6da-43f9f1dabff7">
 
 ```
 var sheet_id = "YOUR_GOOGLE_SHEET_ID";
