@@ -45,7 +45,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 - Click on "Save"
 - And you're done, you can now access the following web pages: LOCAL_IP_ADDRESS/accueil & LOCAL_IP_ADDRESS/dashboard
 ### Dadabase
-
+- Download the following file : [here](https://docs.google.com/spreadsheets/d/1MzfrYDloWlxmfWAgQVE4hzFRyIgfXsLG/edit?usp=sharing&ouid=109384094405642667494&rtpof=true&sd=true)
 
 # Additional material required :
 - DHT22 temperature and humidity sensor
