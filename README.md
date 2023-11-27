@@ -82,7 +82,7 @@ sheet.appendRow([date,temperature, humidite, luminosite, moistureSensor1, moistu
 <img width="482" alt="Capture d’écran 2023-11-24 à 09 25 02" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/ae5d1ec4-e019-4077-bf2f-7e15ebe8740a">
 
 ### Extract from the database
-<img width="300" alt="Capture d’écran 2023-11-24 à 09 27 08" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/5a0231ec-6d6f-4ed7-8dd2-d076064bc66f">
+<img width="600" alt="Capture d’écran 2023-11-24 à 09 27 08" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/5a0231ec-6d6f-4ed7-8dd2-d076064bc66f">
 
 (the data displayed is random, as no sensor was connected to the board)
 
