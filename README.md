@@ -44,6 +44,7 @@ Esp32-based automatic irrigation system capable of controlling up to 6 different
 - select your wifi network and enter your password
 - Click on "Save"
 - And you're done, you can now access the following web pages: LOCAL_IP_ADDRESS/accueil & LOCAL_IP_ADDRESS/dashboard
+
 ### Dadabase
 - Download the following file : [here](https://docs.google.com/spreadsheets/d/1MzfrYDloWlxmfWAgQVE4hzFRyIgfXsLG/edit?usp=sharing&ouid=109384094405642667494&rtpof=true&sd=true
 - Click on "file" -> "save in google sheet format"
@@ -67,9 +68,9 @@ var moistureSensor3 = e.parameter.moistureSensor3;
 sheet.appendRow([date,temperature, humidite, luminosite, moistureSensor1, moistureSensor2, moistureSensor3]);
 }
 ```
+
 - Click on "deploy" -> "New deployment" add a description and click "OK"
 <img width="600" alt="Capture d’écran 2023-11-27 à 15 22 52" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/60018ee2-8f91-466e-a8cc-46e35db3eb6c">
-
 
 # Additional material required :
 - DHT22 temperature and humidity sensor
