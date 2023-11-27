@@ -67,7 +67,7 @@ sheet.appendRow([date,temperature, humidite, luminosite, moistureSensor1, moistu
 }
 ```
 - Click on "deploy" -> "New deployment" add a description and click "OK"
-<img width="600" alt="Capture d’écran 2023-11-27 à 15 22 52" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/fe9c33ee-44d1-4c94-b5ff-c1ff15445863">
+<img width="600" alt="Capture d’écran 2023-11-27 à 15 22 52" src="https://github.com/KyrianBunel/Automatic-Watering-System/assets/136705314/60018ee2-8f91-466e-a8cc-46e35db3eb6c">
 
 
 # Additional material required :
